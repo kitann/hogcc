@@ -1,0 +1,131 @@
+/* TOP SECTION */
+
+#top-container {
+  text-align: center;
+  color: #4d3e3e;
+  }
+
+/* CHURCH NAME */
+
+.church-name {
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* SECTION VIDEO */
+
+.section-video {
+  width: 100%;
+}
+
+/* NAVIGATION PANES */
+.nav-links {
+  margin: auto;
+}
+
+/* STICKY NAVBAR */
+nav.top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+}
+
+/* A-TAGs */
+.nav-items {
+  margin: 20px;
+  text-decoration: none;
+  font-family: "Baloo 2";
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: grey;
+
+}
+
+.nav-items:hover {
+  background-color: #4d3e3e;
+}
+
+
+/* WORD IN VIDEO */
+h1 {
+  position: absolute;
+  top: 60%;
+
+  color: #fff;
+  font-size: 100px;
+  font-family: 'Source Code Pro', monospace;
+  width: 45%;
+}
+
+/* WORSHIP MESSAGE IN VIDEO HOME PAGE */
+.worship {
+  position: absolute;
+  top: 80%;
+
+  color: #fff;
+  width: 45%;
+  font-size: 26px;
+}
+
+/* BUTTON IN VIDEO MAIN PAGE */
+.video-btn {
+  position: absolute;
+  top: 90%;
+  width: 45%;
+}
+
+h1, .worship, .video-btn {
+  left: 30%;
+}
+
+/* SECTION FOR PHOTOS */
+#photos {
+  margin-top: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+/* CAROUSEL FOR THE PHOTOS */
+.testimonial-image {
+  height: 25%;
+  width: 80%;
+  border-radius: 100%;
+}
+
+#carousel {
+  background-color: #000;
+
+}
+
+.testimonial-text {
+  color: #fff;
+  font-family: 'Kalam', cursive;
+}
+
+/* BACK TO TOP BUTTON */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
